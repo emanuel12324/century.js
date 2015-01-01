@@ -10,6 +10,7 @@ There is only one function in the plugin. The usage is as follows:
 century(parent, element);
 
 parent - what you would like to count as its parent element. Usually we suggest its parent element.
+
 element - the element that you would like to be centered
 
 =======
