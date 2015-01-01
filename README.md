@@ -14,7 +14,10 @@ century(parent, element);
 
 =======
 
+###Examples
 Examples can be found [here](http://jsfiddle.net/emanuel12324/xxky0f1c/)
 
-## Credits
+=======
+
+### Credits
 Creators: [@theawesomecoder61](http://www.github.com/theawesomecoder61) & [@emanuel12324](http://www.github.com/emanuel12324)
