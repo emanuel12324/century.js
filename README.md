@@ -17,4 +17,4 @@ element - the element that you would like to be centered
 Examples can be found [here](http://jsfiddle.net/emanuel12324/xxky0f1c/)
 
 ## Credits
-Creators: @theawesomecoder61 & @emanuel12324
+Creators: [@theawesomecoder61](http://www.github.com/theawesomecoder61) & [@emanuel12324](http://www.github.com/emanuel12324)
