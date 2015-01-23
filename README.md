@@ -8,6 +8,14 @@ A purely JavaScript, super light-weight, ultra fast and easy to use plugin that 
 ###Usage
 We recommend that you use the minified version of the code as it is the most lightweight and will load the fastest for your users. If you need to, you can use the un-minified version. DO NOT use the full version as it is there for purely reference purposes. IN NO WAY WILL IT FUNCTION PROPERLY!!!
 
+Simply put the following line in your header and call the function appropriately:
+`<script src="http://www.synergytechhosting.com/century/century.min.js"></script>`
+
+and call it like so:
+`<script>
+  century(parent, element);
+</script>'
+
 century(parent, element);
 
 - parent - what you would like to count as its parent element. Usually we suggest its parent element.
