@@ -14,7 +14,7 @@ Simply put the following line in your header and call the function appropriately
 and call it like so:
 `<script>
   century(parent, element);
-</script>'
+</script>`
 
 century(parent, element);
 
