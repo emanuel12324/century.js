@@ -31,25 +31,27 @@ function centuryCSS(elem, property, value) {
 
 //NEW CODE
 
-function century(parent, element) {
-	centuryCSS(element, "position", "absolute");
-	centuryCSS(element, "left", "50%");
-    centuryCSS(element, "top", "50%");
-    centuryCSS(element, "margin-left", centuryCSS(element, "width")/2);
-    centuryCSS(element, "margin-top", centuryCSS(element, "height")/2);
+function century(par, el) {
+	var parW = parseInt(centuryCSS(par, "width"));
+	var parH = parseInt(centuryCSS(par, "height"));
+	var elOW = document.querySelector(el).offsetWidth;
+	var elOH = document.querySelector(el).offsetHeight;
+	centuryCSS(el, "position", "absolute");
+	centuryCSS(el, "left", (parW - elOW)/2+3);
+	centuryCSS(el, "top", (parH - elOH)/2+3);
 }
 
-function centuryCSS(elem, property, value) { 
-	var el = document.querySelectorAll(elem); 
-	for(var i=0;i<el.length;i++) { 
-		if(value == "" || value === null || !value) { 
-			return document.defaultView.getComputedStyle(el[i], null)[property]; 
-		} else { 
-			el[i].style[property] = value; 
-		} 
-	} 
+function centuryCSS(elem, property, value) {
+	var el = document.querySelectorAll(elem);
+	for(var i=0;i<el.length;i++) {
+		if(value == "" || value === null || !value) {
+			return document.defaultView.getComputedStyle(el[i], null)[property];
+		} else {
+			el[i].style[property] = value;
+		}
+	}
 }
 
 //MINIFIED CODE
 
-function century(t,e){centuryCSS(e,"position","absolute"),centuryCSS(e,"left","50%"),centuryCSS(e,"top","50%"),centuryCSS(e,"margin-left",centuryCSS(e,"width")/2),centuryCSS(e,"margin-top",centuryCSS(e,"height")/2)}function centuryCSS(t,e,n){for(var u=document.querySelectorAll(t),S=0;S<u.length;S++){if(""==n||null===n||!n)return document.defaultView.getComputedStyle(u[S],null)[e];u[S].style[e]=n}}
+function century(e,t){var n=parseInt(centuryCSS(e,"width"));var r=parseInt(centuryCSS(e,"height"));var i=document.querySelector(t).offsetWidth;var s=document.querySelector(t).offsetHeight;centuryCSS(t,"position","absolute");centuryCSS(t,"left",(n-i)/2+3);centuryCSS(t,"top",(r-s)/2+3)}function centuryCSS(e,t,n){var r=document.querySelectorAll(e);for(var i=0;i<r.length;i++){if(n==""||n===null||!n){return document.defaultView.getComputedStyle(r[i],null)[t]}else{r[i].style[t]=n}}}
