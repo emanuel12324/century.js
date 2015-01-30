@@ -25,7 +25,7 @@ century(parent, element);
 =======
 
 ###Examples
-Examples can be found [here](http://jsfiddle.net/emanuel12324/xxky0f1c/) and [here](http://www.synergytechhosting.com/century/example.html)
+Examples can be found [here](http://www.synergytechhosting.com/century/example.html)
 
 =======
 
