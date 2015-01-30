@@ -12,7 +12,11 @@ Simply put the following line in your header and call the function appropriately
 
 `<script src="http://www.synergytechhosting.com/century/century.min.js"></script>`
 
-and call it like so (you can also download the files in the repository and use them instead):
+or download the files in the repository and use them locally like this:
+
+`<script src="/path/to/folder/containing/files/js/century.min.js"></script>`
+
+and call it like so:
 
 `<script>century(parent, element);</script>`
 
